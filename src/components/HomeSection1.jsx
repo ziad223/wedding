@@ -9,7 +9,7 @@ const HomeSection1 = () => {
               <img src={home1} alt="home-1" className="object-contain w-full max-h-[400px] rounded-sm" />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col justify-center h-full">
-              <h2 className="text-[#907457] lg:text-4xl font-bold text-xl text-center lg:text-right">
+              <h2 className="text-[#907457] lg:text-4xl font-bold text-xl text-center mt-5 lg:mt-0 lg:text-right">
                   وجهتك المثالية لفساتين الزفاف <span className="lg:block">الفاخرة في مصر</span>
               </h2>
               <p className="my-6 lg:text-2xl text-lg text-center lg:w-[80%] lg:text-right">
