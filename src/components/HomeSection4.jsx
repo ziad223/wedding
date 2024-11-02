@@ -7,7 +7,7 @@ const HomeSection4 = () => {
   return (
       <div className='bg-[#f6f2e9] px-4 md:px-8 lg:px-24 py-10'>
           <h2 className='lg:text-4xl text-xl'>معرض الأعمال</h2>
-          <div className="flex justify-center lg:w-[90%] mx-auto gap-3 mt-16 items-end">
+          <div className="flex justify-center lg:w-[80%] mx-auto gap-3 mt-16 items-end">
               <img src={home3} alt="home3" className="w-1/4 h-full object-contain" /> {/* الصورة الأولى بحجم نصف */}
               <img src={home4} alt="home4" className="w-1/2 h-full object-contain" /> {/* الصورة الوسطى بحجم كامل */}
               <img src={home5} alt="home5" className="w-1/4 h-full object-contain" /> {/* الصورة الأخيرة بحجم نصف */}
