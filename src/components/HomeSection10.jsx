@@ -52,11 +52,11 @@ const HomeSection10 = () => {
             <div className='lg:w-[60%] mx-auto'> {/* This ensures the entire slider container is 60% on large screens */}
                 <Slider {...settings}>
                     {/* Slide 1 */}
-                    <div className='bg-[#f6f2e9] p-5'>
+                    <div className='bg-[#f6f2e9] p-5 '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
-                        <div className='flex flex-col lg:flex-row items-center justify-around mt-10'>
-                            <img src={img1} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
-                            <p className='text-xl lg:w-[60%] text-center lg:text-right leading-[1.5]'>
+                        <div className='flex flex-col  lg:flex-row items-center justify-around mt-14'>
+                            <img src={img1} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 ml-10 lg:ml-0 mr-0 lg:mr-6 mb-4 lg:mb-0' />
+                            <p className='text-xl lg:w-[60%] w-[100%] text-center lg:text-right leading-[1.5]  ml-10 lg:ml-0 '>
                                 فساتين بهاء الدين هي حلم كل عروس، حيث يتم تصميمها بعناية فائقة وبأجود الخامات، مما يجعل كل عروس تشعر بأنها مميزة في يومها الكبير.
                             </p>
                         </div>
@@ -65,9 +65,9 @@ const HomeSection10 = () => {
                     {/* Slide 2 */}
                      <div className='bg-[#f6f2e9] p-5'>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
-                        <div className='flex flex-col lg:flex-row items-center justify-around mt-10'>
-                            <img src={img2} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
-                            <p className='text-xl lg:w-[60%] text-center lg:text-right  leading-[1.5]'>
+                        <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
+                            <img src={img2} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 ml-10 lg:ml-0  mr-0 lg:mr-6 mb-4 lg:mb-0' />
+                            <p className='text-xl lg:w-[60%] text-center lg:text-right ml-10 lg:ml-0 w-[100%]  leading-[1.5]'>
                                 أحببت كل التفاصيل الصغيرة في فستاني، كانت تجربة غير عادية، وأوصي كل عروس بالتوجه إلى فساتين بهاء الدين.
                             </p>
                         </div>
@@ -76,9 +76,9 @@ const HomeSection10 = () => {
                     {/* Slide 3 */}
                     <div className='bg-[#f6f2e9] p-5'>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
-                        <div className='flex flex-col lg:flex-row items-center justify-around mt-10'>
-                            <img src={img3} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
-                            <p className='text-xl lg:w-[60%] text-center lg:text-right  leading-[1.5]'>
+                        <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
+                            <img src={img3} alt="testimonial" className='w-32 h-32 lg:w-40 ml-10 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
+                            <p className='text-xl lg:w-[60%] text-center lg:text-right  ml-10 lg:ml-0 w-[100%] leading-[1.5]'>
                                 الجودة والخدمة هما عنوان فساتين بهاء الدين. شكراً لكل العاملين هناك على الاهتمام والتفاني.
                             </p>
                         </div>
@@ -87,20 +87,20 @@ const HomeSection10 = () => {
                     {/* Slide 4 */}
                     <div className='bg-[#f6f2e9] p-5'>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
-                        <div className='flex flex-col lg:flex-row items-center justify-around mt-10'>
-                            <img src={img4} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
-                            <p className='text-xl lg:w-[60%] text-center lg:text-right  leading-[1.5]'>
+                        <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
+                            <img src={img4} alt="testimonial" className='w-32 h-32 lg:w-40 ml-10 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
+                            <p className='text-xl lg:w-[60%] text-center lg:text-right ml-10 lg:ml-0 w-[100%] leading-[1.5]'>
                                 كان الفستان مذهلاً بكل المقاييس، والجميع أشادوا بالتفاصيل والأناقة. أشكركم من أعماق قلبي.
                             </p>
                         </div>
                     </div>
 
                     {/* Slide 5 */}
-                    <div className='bg-[#f6f2e9] p-5'>
+                    <div className='bg-[#f6f2e9] p-5 '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
-                        <div className='flex flex-col lg:flex-row items-center justify-around mt-10'>
-                            <img src={img5} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
-                            <p className='text-xl lg:w-[60%] text-center lg:text-right  leading-[1.5]'>
+                        <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
+                            <img src={img5} alt="testimonial" className='w-32 h-32 lg:w-40 ml-10 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
+                            <p className='text-xl lg:w-[60%] text-center lg:text-right  ml-10 lg:ml-0 w-[100%] leading-[1.5]'>
                                 تجربة رائعة! كان الفستان مثاليًا، وشعرت كأنني ملكة في يوم زفافي بفضل التفصيل الدقيق والخامات الممتازة.
                             </p>
                         </div>
