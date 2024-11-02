@@ -5,5 +5,12 @@
 body{
   direction: rtl;
     /* font-family: "Almarai", sans-serif; */
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar{
+  background-color: #907457;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e7dbbe;
 }
