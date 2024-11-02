@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   direction: rtl;
-    /* font-family: "Almarai", sans-serif; */
-    overflow-x: hidden !important;
+  /* font-family: "Almarai", sans-serif; */
+  overflow-x: hidden !important;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar{
