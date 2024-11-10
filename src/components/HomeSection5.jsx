@@ -1,9 +1,9 @@
 import React from 'react';
-import home6 from '../images/home-6.png';
-import home7 from '../images/home-7.png';
-import home8 from '../images/home-8.png';
-import home9 from '../images/home-9.png';
-import home10 from '../images/home-10.png';
+import home6 from '../images/home/home-6.png';
+import home7 from '../images/home/home-7.png';
+import home8 from '../images/home/home-8.png';
+import home9 from '../images/home/home-9.png';
+import home10 from '../images/home/home-10.png';
 import { Link } from 'react-router-dom';
 
 const HomeSection5 = () => {

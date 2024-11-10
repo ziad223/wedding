@@ -1,5 +1,5 @@
 import React from 'react';
-import homeBanner from '../images/home-banner.png';
+import homeBanner from '../images/home/home-banner.png';
 import { Link } from 'react-router-dom';
 
 const HomeSection6 = () => {

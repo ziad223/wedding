@@ -1,5 +1,5 @@
 import React from 'react';
-import home1 from '../images/home-1.png';
+import home1 from '../images/home/home-1.png';
 import { Link } from 'react-router-dom';
 
 const HomeSection1 = () => {

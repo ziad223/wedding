@@ -1,10 +1,10 @@
 import React from 'react';
-import vector1 from '../images/vector-1.png';
-import vector2 from '../images/vector-2.png';
-import vector3 from '../images/vector-3.png';
-import vector4 from '../images/vector-4.png';
-import vector5 from '../images/vector-5.png';
-import vector6 from '../images/vector-6.png';
+import vector1 from '../images/home/vector-1.png';
+import vector2 from '../images/home/vector-2.png';
+import vector3 from '../images/home/vector-3.png';
+import vector4 from '../images/home/vector-4.png';
+import vector5 from '../images/home/vector-5.png';
+import vector6 from '../images/home/vector-6.png';
 const HomeSection2 = () => {
   return (
       <div className='bg-[#252525] lg:p-10 p-5'>

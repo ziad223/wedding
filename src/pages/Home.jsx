@@ -10,7 +10,7 @@ import HomeSection8 from '../components/HomeSection8';
 import HomeSection9 from '../components/HomeSection9';
 import HomeSection10 from '../components/HomeSection10';
 import HomeSection11 from '../components/HomeSection11';
-import homeBanner from '../images/home-banner.png'
+import homeBanner from '../images/home/home-banner.png'
 const Home = () => {
   return (
     <div className=''>

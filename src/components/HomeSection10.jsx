@@ -2,12 +2,12 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import dot from '../images/dot.png';
-import img1 from '../images/testimonail1.png';
-import img2 from '../images/testimonail2.png';
-import img3 from '../images/testimonail3.png';
-import img4 from '../images/testimonail4.png';
-import img5 from '../images/testimonail5.png';
+import dot from '../images/home/dot.png';
+import img1 from '../images/home/testimonail1.png';
+import img2 from '../images/home/testimonail2.png';
+import img3 from '../images/home/testimonail3.png';
+import img4 from '../images/home/testimonail4.png';
+import img5 from '../images/home/testimonail5.png';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const NextArrow = (props) => {

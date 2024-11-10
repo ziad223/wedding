@@ -1,7 +1,7 @@
 import React from 'react';
-import home3 from '../images/home-3.png';
-import home4 from '../images/home-4.png';
-import home5 from '../images/home-5.png';
+import home3 from '../images/home/home-3.png';
+import home4 from '../images/home/home-4.png';
+import home5 from '../images/home/home-5.png';
 import { Link } from 'react-router-dom';
 const HomeSection4 = () => {
   return (
