@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HomeSection7 = () => {
   return (
     <div className='px-4 md:px-8 lg:px-24 my-20 '>
-      <div className='text-center'>
+      <div className='text-center p-5'>
         <h2 className='lg:text-4xl text-2xl'>خدماتنا</h2>
         <p className='mt-2 lg:text-xl text-lg'>
           نحن نقدم مجموعة متميزة من الخدمات لتلبية كافة احتياجات العروس <span className='lg:block'>وجعل يوم زفافها استثنائيًا</span>  </p>

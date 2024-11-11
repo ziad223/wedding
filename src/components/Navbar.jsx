@@ -73,45 +73,45 @@ const Navbar = () => {
       </Link>
 
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-20 left-0 w-full bg-[#f6f2e9] p-5 shadow-md flex flex-col items-center gap-4">
+        <div className="lg:hidden absolute z-50 top-20 left-0 w-full bg-[#f6f2e9] p-5 shadow-md flex flex-col items-center gap-4">
           <Link
             to="/"
-            className={`font-bold ${isActiveLink('/') ? 'text-[#907457]' : ''}`}
+            className={`hover:text-[#907457] font-bold ${isActiveLink('/') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             الرئيسية
           </Link>
           <Link
             to="/about"
-            className={`font-bold ${isActiveLink('/about') ? 'text-[#907457]' : ''}`}
+            className={`hover:text-[#907457]  font-bold ${isActiveLink('/about') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             عن بهاء الدين
           </Link>
           <Link
             to="/services"
-            className={`font-bold ${isActiveLink('/services') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-bold ${isActiveLink('/services') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             خدماتنا
           </Link>
           <Link
             to="/portfolio"
-            className={`font-bold ${isActiveLink('/portfolio') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-bold ${isActiveLink('/portfolio') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             معرض أعمالنا
           </Link>
           <Link
             to="/blog"
-            className={`font-bold ${isActiveLink('/blog') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-bold ${isActiveLink('/blog') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             مقالات
           </Link>
           <Link
             to="/contact"
-            className={`font-bold ${isActiveLink('/contact') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-bold ${isActiveLink('/contact') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             التواصل

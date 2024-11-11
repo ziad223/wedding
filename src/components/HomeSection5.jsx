@@ -8,7 +8,10 @@ import { Link } from 'react-router-dom';
 
 const HomeSection5 = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-24 my-20">
+    <div
+      className="px-4 md:px-8 lg:px-24 my-20"
+    
+    >
       <h2 className="lg:text-4xl text-xl text-center lg:text-right">مجموعتنا</h2>
       <div className="flex flex-col lg:flex-row justify-center gap-5 mt-16">
         {/* العمود الأول */}

@@ -8,9 +8,9 @@ const HomeSection6 = () => {
             className="flex items-center h-screen  justify-center bg-cover bg-center py-20 px-4"
             style={{ backgroundImage: `url(${homeBanner})` , backgroundPosition : 'center' }}
         >
-            <div className="text-center max-w-lg  p-8 rounded-lg ">
+            <div className="text-center  p-8 rounded-lg ">
                 <p className="text-xl font-bold mb-6 text-white">
-                    احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!
+                    احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين <span className='lg:block'>   لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!</span>
                 </p>
                 <Link
                     to="/contact"
