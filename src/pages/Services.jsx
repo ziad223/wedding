@@ -16,7 +16,7 @@ const Services = () => {
         <img src={serviceHero} alt="service-hero" />
         </div> 
       <div className='text-center bg-white p-5 lg:p-10'>
-        <h2 className='text-[#907457] font-bold text-2xl'>خدماتنا في تصميم فساتين الزفاف</h2>
+        <h2 className='text-[#907457] font-bold text-lg lg:-2xl'>خدماتنا في تصميم فساتين الزفاف</h2>
         <p className='text-lg  mx-auto mt-4'>
           في بهاء الدين، نقدم مجموعة متميزة من الخدمات لتلبية كافة احتياجات العروس وجعل 
           <span className='md:block'>  يوم زفافها استثنائيًا</span>

@@ -5,9 +5,9 @@ import img3 from '../images/about/about-img-6.png';
 
 const AboutSection3 = () => {
     return (
-        <div className='p-10 px-4 md:px-16 lg:px-24 flex flex-col lg:flex-row justify-center items-center'>
+        <div className='p-10 px-4 md:px-16 lg:px-24 flex flex-col lg:flex-row justify-center'>
             {/* Left Side */}
-            <div className='w-full lg:w-1/2'>
+            <div className='w-full lg:w-1/2 lg:mt-10'>
                 <h2 className='lg:text-3xl text-2xl font-bold text-[#907457]'>
                     لماذا تختارين فساتين بهاء
                     <span className='lg:block'> الدين</span>

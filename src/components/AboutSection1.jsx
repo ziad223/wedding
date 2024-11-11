@@ -15,7 +15,7 @@ const AboutSection1 = () => {
             </div>
 
             {/* النص محاذٍ لأسفل الصورة */}
-            <div className="w-full lg:w-1/3 text-center lg:text-right  lg:self-end">
+            <div className="w-full lg:w-1/3 lg:text-lg text-center lg:text-right  lg:self-end">
                 <p>
                     نسعى إلى تقديم فساتين زفاف تحكي قصة كل عروس، تجمع بين الحرفية العالية والتصاميم العصرية التي تجعل كل لحظة في حفل الزفاف لا تُنسى
                 </p>

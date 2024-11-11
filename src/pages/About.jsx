@@ -12,7 +12,7 @@ const About = () => {
         <img src={aboutHero} alt="about-hero" />
          </div>
       <div className='text-center bg-white p-5 lg:p-10'>
-        <h2 className='text-[#907457] font-bold text-2xl'>رحلة الإبداع في تصميم فساتين الزفاف</h2>
+        <h2 className='text-[#907457] font-bold text-lg lg:text-2xl'>رحلة الإبداع في تصميم فساتين الزفاف</h2>
         <p className='text-lg  mx-auto mt-4'>
           في بهاء الدين، نعمل على تحقيق حلم كل عروس بارتداء فستان زفاف يعكس <span className='md:block'>شخصيتها بأفضل صورة. بخبرة تتجاوز عشر سنوات، نقدّم تصاميم فريدة تجمع بين</span> العصرية والتقاليد.
         </p>
