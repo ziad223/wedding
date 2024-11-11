@@ -25,13 +25,13 @@ const Portfolio = () => {
           يومك الخاص مميزا كما حلمت به.
         </p>
         <div className='my-10 px-4 md:px-16 lg:px-24 flex lg:flex-row flex-col gap-3'>
-          <div>
+          <div className='mr-2 lg:mr-0'>
             <img src={porfolio1} alt="porfolio1" />
           </div>
-           <div>
+          <div className='mr-2 lg:mr-0'>
             <img src={porfolio2} alt="porfolio2" />
            </div>
-           <div>
+           <div className='mr-2 lg:mr-0'>
             <img src={porfolio3} alt="porfolio3" />
            </div>
           <div className='relative'>
@@ -53,13 +53,13 @@ const Portfolio = () => {
 
         </div>
         <div className='my-10 px-4 md:px-16 lg:px-24 flex lg:flex-row flex-col gap-3'>
-          <div>
+          <div className='mr-2 lg:mr-0'>
             <img src={porfolio5} alt="porfolio5" />
           </div>
-          <div>
+          <div className='mr-2 lg:mr-0'>
             <img src={porfolio6} alt="porfolio6" />
           </div>
-          <div>
+          <div className='mr-2 lg:mr-0'>
             <img src={porfolio7} alt="porfolio7" />
           </div>
           <div className='relative'>
