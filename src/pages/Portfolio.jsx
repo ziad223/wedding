@@ -99,7 +99,7 @@ const Portfolio = () => {
             <span className="block">لتصميم فستان زفاف أحلامك</span>. العرض لفترة محدودة!
           </p>
           <Link
-            to="/contact"
+            to="/reservation"
             className="bg-[#907457] px-6 sm:px-8 py-1 block w-max mt-5 text-white text-sm sm:text-lg rounded-lg cursor-pointer hover:bg-[#795b3b] transition-all duration-300"
           >
             أحجز الأن

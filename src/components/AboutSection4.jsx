@@ -76,7 +76,7 @@ const AboutSection4 = () => {
                             لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!
                             </span>
                         </h2>
-                    <Link to='/contact' className='bg-[#907457] px-14 text-lg py-3 text-white rounded-lg d cursor-pointer hover:bg-[#795b3b] transition-all duration-300'>
+                    <Link to='/reservation' className='bg-[#907457] px-14 text-lg py-3 text-white rounded-lg d cursor-pointer hover:bg-[#795b3b] transition-all duration-300'>
                          أحجز الأن
                           </Link>
                 </div>

@@ -13,7 +13,7 @@ const HomeSection6 = () => {
                     احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين <span className='lg:block'>   لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!</span>
                 </p>
                 <Link
-                    to="/contact"
+                    to="/reservation"
                     className="bg-[#907457] py-3 px-20 text-xl text-white rounded-lg mt-4 hover:bg-[#7c6246] transition-all duration-300"
                 >
                     أحجز الأن
