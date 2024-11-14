@@ -40,25 +40,31 @@ const Services = () => {
       <div className='bg-[#252525] mt-32'>
         <ServicesSection6/>
         <div
-          className="mt-10 h-[700px]" // استخدم ارتفاع مناسب هنا، أو يمكنك استخدام h-full إذا كنت ترغب بملء المساحة
+          className="mt-10 h-[700px] lg:h-[100vh]" // يمكن تحديد ارتفاع مناسب، مثل h-[700px] أو h-full لتعبئة المساحة
           style={{
             backgroundImage: `url(${bg})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}
         >
-          <div className='flex justify-center flex-col gap-7 items-center h-screen text-center'>
-            <h2 className='text-white lg:text-3xl text-xl font-bold w-[90%] lg:w-[full]'>
-              هل ترغبين في تصميم فستان أحلامك؟ تواصلي معنا الآن لحجز
-              <span className='md:block'>
-                استشارتك الخاصة.
-              </span>
-            </h2>
-            <Link to='/contact' className='bg-[#907457] px-14 text-lg py-3 text-white rounded-lg d cursor-pointer hover:bg-[#795b3b] transition-all duration-300'>
-               تواصلي معنا
-            </Link>
+          <div className="flex justify-center items-center h-full text-center px-4">
+            <div className="w-full max-w-2xl"> {/* هذا يحدد أقصى عرض للمحتوى */}
+              <h2 className="text-white text-xl lg:text-2xl font-bold">
+                هل ترغبين في تصميم فستان أحلامك؟ تواصلي معنا الآن لحجز
+                <span className="md:block">
+                  استشارتك الخاصة.
+                </span>
+              </h2>
+              <Link
+                to="/contact"
+                className="bg-[#907457] block w-max mx-auto  px-8 sm:px-10 md:px-14 py-3 text-lg sm:text-xl text-white rounded-lg cursor-pointer hover:bg-[#795b3b] transition-all duration-300 mt-6"
+              >
+                تواصلي معنا
+              </Link>
+            </div>
           </div>
         </div>
+
       </div>
       
 
