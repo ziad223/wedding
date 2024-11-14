@@ -4,7 +4,7 @@ const Reservation = () => {
   return (
     <div className='bg-[#2f2c2c]'>
       <div className='py-20 lg:w-[70%] mx-auto px-4'>
-        <div className='border p-5 flex flex-col lg:flex-row justify-center gap-10 items-center'>
+        <div className='border border-gray-400 p-5 flex flex-col lg:flex-row justify-center gap-10 items-center'>
           <div className="lg:w-1/2 w-full">
             <h2 className='text-white lg:text-3xl text-xl font-bold text-center lg:text-right'>احجزي موعدك الآن</h2>
             <p className='text-gray-300 my-5 text-sm text-center lg:text-right'>
