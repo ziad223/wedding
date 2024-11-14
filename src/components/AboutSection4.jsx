@@ -61,26 +61,27 @@ const AboutSection4 = () => {
                 </div>
             </div>
             <div
-                className="mt-10 h-[700px]" // استخدم ارتفاع مناسب هنا، أو يمكنك استخدام h-full إذا كنت ترغب بملء المساحة
+                className="mt-10 h-[500px] lg:h-[700px] bg-cover bg-center bg-no-repeat"
                 style={{
                     backgroundImage: `url(${bg})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
                 }}
             >
-                <div className='flex justify-center flex-col gap-7 items-center h-screen text-center'>
-                    <h2 className='text-white lg:text-3xl text-xl font-bold w-[90%] lg:w-[full]'>
-                        احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين 
-                        <span className='md:block'>
+                <div className="flex justify-center flex-col gap-7 items-center h-full text-center p-5 lg:p-0">
+                    <h2 className="text-white text-xl lg:text-3xl font-bold w-full lg:w-[70%] mx-auto">
+                        احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين
+                        <span className="block">
                             لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!
-                            </span>
-                        </h2>
-                    <Link to='/reservation' className='bg-[#907457] px-14 text-lg py-3 text-white rounded-lg d cursor-pointer hover:bg-[#795b3b] transition-all duration-300'>
-                         أحجز الأن
-                          </Link>
+                        </span>
+                    </h2>
+                    <Link
+                        to="/reservation"
+                        className="bg-[#907457] px-10 lg:px-14 text-lg py-2 lg:py-3 text-white rounded-lg cursor-pointer hover:bg-[#795b3b] transition-all duration-300"
+                    >
+                        أحجز الأن
+                    </Link>
                 </div>
             </div>
+
         </div>
     );
 }
