@@ -26,3 +26,20 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: #e7dbbe;
 }
+
+/* Add this in your global CSS or in the component's CSS file */
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.6s ease-out forwards;
+}

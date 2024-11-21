@@ -15,8 +15,8 @@ const Navbar = () => {
   const isActiveLink = (path) => location.pathname === path;
 
   return (
-    <div className="bg-[#f6f2e9] px-7 lg:px-24 py-5 flex justify-between items-center">
-      <div className="items-center gap-5 hidden lg:flex">
+    <div className="bg-[#f6f2e9] fixed w-full z-4 top-0 px-7 lg:px-24 py-5 flex justify-between items-center">
+      <div className="items-center gap-3 hidden lg:flex">
         <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
         <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
         <FaTwitter className="text-[#907457] text-lg cursor-pointer" />
@@ -116,7 +116,7 @@ const Navbar = () => {
           >
             التواصل
           </Link>
-          <div className="flex items-center gap-5 mt-4">
+          <div className="flex items-center gap-3 mt-4">
             <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
             <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
             <FaTwitter className="text-[#907457] text-lg cursor-pointer" />

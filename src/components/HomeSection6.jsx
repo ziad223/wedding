@@ -5,12 +5,19 @@ import { Link } from 'react-router-dom';
 const HomeSection6 = () => {
     return (
         <div
-            className="flex items-center h-screen  justify-center bg-cover bg-center py-20 px-4"
-            style={{ backgroundImage: `url(${homeBanner})` , backgroundPosition : 'center' }}
+            className="flex items-center justify-center py-20 px-4"
+            style={{
+                width: '1440px',  // تحديد عرض الـ div
+                height: '725px',  // تحديد طول الـ div
+                backgroundImage: `url(${homeBanner})`,
+                backgroundSize: 'cover',  // لضمان ملء الخلفية بالكامل
+                backgroundPosition: 'center',  // لضبط الصورة في منتصف الـ div
+                backgroundRepeat: 'no-repeat',  // عدم تكرار الخلفية
+            }}
         >
-            <div className="text-center  p-8 rounded-lg ">
+            <div className="text-center p-8 rounded-lg">
                 <p className="text-xl font-bold mb-6 text-white">
-                    احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين <span className='lg:block'>   لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!</span>
+                    احجزي موعدك الآن واحصلي على استشارة مجانية مع بهاء الدين <span className='lg:block'>لتصميم فستان زفاف أحلامك. العرض لفترة محدودة!</span>
                 </p>
                 <Link
                     to="/reservation"

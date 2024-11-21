@@ -8,6 +8,7 @@ import img2 from '../images/home/testimonail2.png';
 import img3 from '../images/home/testimonail3.png';
 import img4 from '../images/home/testimonail4.png';
 import img5 from '../images/home/testimonail5.png';
+import layer from '../images/layers/homeLayer-5.png';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const NextArrow = (props) => {
@@ -35,7 +36,7 @@ const PrevArrow = (props) => {
 };
 const HomeSection10 = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -47,8 +48,11 @@ const HomeSection10 = () => {
     };
 
     return (
-        <div className='px-4 md:px-8 lg:px-24 my-20'>
+        <div className='px-4 md:px-8 lg:px-24 my-20 relative -z-20'>
             <h2 className='text-xl lg:text-4xl mb-10'>اراء العملاء</h2>
+            <div className='absolute hidden lg:block -z-20 lg:top-[-160px] lg:left-0'>
+                <img src={layer} alt="layer" className='lg:w-[1063.48px] lg:h-[704.18px]' />
+            </div>
             <div className='lg:w-[60%] mx-auto'> {/* This ensures the entire slider container is 60% on large screens */}
                 <Slider {...settings}>
                     {/* Slide 1 */}
