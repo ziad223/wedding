@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const HomeSection5 = () => {
   return (
     <div
-      className="px-4 md:px-8 lg:px-24 my-20 relative -z-10"
+      className="px-4 md:px-8 lg:px-24 my-20 relative "
     >
       <h2 className="lg:text-4xl text-xl text-center lg:text-right">مجموعتنا</h2>
       <div className='lg:absolute hidden lg:block lg:top-[-150px] lg:left-[-20px] -z-20'>
@@ -38,7 +38,7 @@ const HomeSection5 = () => {
       <div className='mx-auto block text-center'>
         <Link
           to="/contact"
-          className="bg-[#907457] py-3 block px-20 text-xl text-white rounded-lg mt-10 mx-auto hover:bg-[#7c6246] transition-all duration-300  lg:text-right w-max text-center "
+          className="bg-[#907457] py-3 z-20  block px-20 text-xl text-white rounded-lg mt-10 mx-auto hover:bg-[#7c6246] transition-all duration-300  lg:text-right w-max text-center "
         >
           تواصل معنا
         </Link>
