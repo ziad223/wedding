@@ -5,14 +5,18 @@ import vector3 from '../images/home/vector-3.png';
 import vector4 from '../images/home/vector-4.png';
 import vector5 from '../images/home/vector-5.png';
 import vector6 from '../images/home/vector-6.png';
+import layer from '../images/layers/homeLayer-6.png';
 
 const HomeSection2 = () => {
   return (
-      <div className='bg-[#252525] lg:p-10 p-5'>
+      <div className='bg-[#252525] lg:p-10 p-5 relative'>
           <h2 className='text-white lg:text-4xl lg:w-[760px] lg:h-[109px] mx-auto text-center'>
               أكثر من مجرد أرقام، إنها قصص <span className='border rounded-full p-2'>نجاح</span> <span className='lg:block'>لا تُنسي</span>
           </h2>
-          <div className='mt-10 lg:w-[1128px] lg:h-[532px] lg:mt-20 gap-10 lg:gap-0 border p-10 mx-auto rounded-xl flex flex-wrap justify-between'>
+          <div className='absolute left-1 hidden lg:block'>
+              <img src={layer} alt="layer" />
+          </div>
+          <div className='mt-10 relative bg-[#252525] z-20 lg:w-[1128px] lg:h-[532px] lg:mt-20 gap-10 lg:gap-0 border p-10 mx-auto rounded-xl flex flex-wrap justify-between'>
               {/* كل عنصر من العناصر */}
               <div className='lg:w-1/3 w-full lg:p-4'>
                   <img src={vector1} alt="vector1" className='mx-auto lg:mx-0 lg:w-[51px] lg:h-[50.91px]' />

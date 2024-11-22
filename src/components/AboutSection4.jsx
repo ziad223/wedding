@@ -22,10 +22,10 @@ const AboutSection4 = () => {
             <h2 className='text-white lg:text-4xl text-center lg:p-10 p-5'>
                 أكثر من مجرد أرقام، إنها قصص <span className='border rounded-full p-2'>نجاح</span> <span className='lg:block'>لا تُنسي</span>
             </h2>
-            <div className='absolute hidden lg:block -z-20 lg:bottom- lg:left-3  lg:top-[-30px]'>
-                <img src={layer} alt="layer" className='lg:w-[279px] lg:h-[772px] object-contain' />
+            <div className='absolute left-1 hidden lg:block'>
+                <img src={layer} alt="layer" />
             </div>
-            <div className='mt-10 lg:w-[1128px] bg-[#252525] lg:h-[532px] lg:mt-20 gap-10 lg:gap-0 border p-10 mx-auto rounded-xl flex flex-wrap justify-between'>
+            <div className='mt-10 relative lg:w-[1128px] bg-[#252525] lg:h-[532px] lg:mt-20 gap-10 lg:gap-0 border p-10 mx-auto rounded-xl flex flex-wrap justify-between'>
                 {/* كل عنصر من العناصر */}
                 <div className='lg:w-1/3 w-full lg:p-4'>
                     <img src={vector1} alt="vector1" className='mx-auto lg:mx-0 lg:w-[51px] lg:h-[50.91px]' />
