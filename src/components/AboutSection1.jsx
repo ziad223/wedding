@@ -11,7 +11,7 @@ const AboutSection1 = () => {
 
             {/* صورة في الوسط */}
             <div className="w-full lg:w-1/3 flex justify-center">
-                <img src={img} alt="wedding-img" className="max-w-full h-auto" />
+                <img src={img} alt="wedding-img" className="lg:w-[466px] lg:h-[543px] h-auto" />
             </div>
 
             {/* النص محاذٍ لأسفل الصورة */}

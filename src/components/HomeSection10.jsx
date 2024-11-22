@@ -56,7 +56,7 @@ const HomeSection10 = () => {
             <div className='lg:w-[60%] mx-auto'> {/* This ensures the entire slider container is 60% on large screens */}
                 <Slider {...settings}>
                     {/* Slide 1 */}
-                    <div className='bg-[#f6f2e9] p-5 '>
+                    <div className='bg-[#f6f2e9] p-5  '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
                         <div className='flex flex-col  lg:flex-row items-center justify-around mt-14'>
                             <img src={img1} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 ml-14 lg:ml-0 mr-0 lg:mr-6 mb-4 lg:mb-0' />
@@ -67,7 +67,7 @@ const HomeSection10 = () => {
                     </div>
 
                     {/* Slide 2 */}
-                     <div className='bg-[#f6f2e9] p-5'>
+                     <div className='bg-[#f6f2e9] p-5 '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
                         <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
                             <img src={img2} alt="testimonial" className='w-32 h-32 lg:w-40 lg:h-40 ml-12 lg:ml-0  mr-0 lg:mr-6 mb-4 lg:mb-0' />
@@ -78,7 +78,7 @@ const HomeSection10 = () => {
                     </div>
 
                     {/* Slide 3 */}
-                    <div className='bg-[#f6f2e9] p-5'>
+                    <div className='bg-[#f6f2e9] p-5 '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
                         <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
                             <img src={img3} alt="testimonial" className='w-32 h-32 lg:w-40 ml-12 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
@@ -89,7 +89,7 @@ const HomeSection10 = () => {
                     </div>
 
                     {/* Slide 4 */}
-                    <div className='bg-[#f6f2e9] p-5'>
+                    <div className='bg-[#f6f2e9] p-5 '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
                         <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
                             <img src={img4} alt="testimonial" className='w-32 h-32 lg:w-40 ml-12 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />
@@ -100,7 +100,7 @@ const HomeSection10 = () => {
                     </div>
 
                     {/* Slide 5 */}
-                    <div className='bg-[#f6f2e9] p-5 '>
+                    <div className='bg-[#f6f2e9] p-5  '>
                         <img src={dot} alt="dot" className='mb-4 float-right' />
                         <div className='flex flex-col lg:flex-row items-center justify-around mt-14'>
                             <img src={img5} alt="testimonial" className='w-32 h-32 lg:w-40 ml-12 lg:ml-0  lg:h-40 mr-0 lg:mr-6 mb-4 lg:mb-0' />

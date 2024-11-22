@@ -13,14 +13,14 @@ const Services = () => {
   return (
     <div>
         <div>
-        <img src={serviceHero} alt="service-hero" />
+        <img src={serviceHero} alt="service-hero" className='lg:h-[827px]' />
         </div> 
-      <div className='text-center bg-white p-5 lg:p-10'>
-        <h2 className='text-[#907457] font-bold text-lg lg:-2xl'>خدماتنا في تصميم فساتين الزفاف</h2>
-        <p className='text-lg  mx-auto mt-4'>
+      <div className='text-center bg-white p-5 lg:p-10 my-10 '>
+        <h2 className='text-[#907457] lg:w-[965px] lg:h-[50px] font-bold text-lg lg:text-[48px] mx-auto'>خدماتنا في تصميم فساتين الزفاف</h2>
+        <p className='text-lg  mx-auto mt-4 lg:w-[965px] lg:h-[80px] leading-[1.5] lg:text-[28px]'>
           في بهاء الدين، نقدم مجموعة متميزة من الخدمات لتلبية كافة احتياجات العروس وجعل 
-          <span className='md:block'>  يوم زفافها استثنائيًا</span>
-        </p>
+           يوم زفافها استثنائيًا
+           </p>
       </div>
       <div className="px-4 md:px-16 lg:px-24 mt-14">
       <ServicesSection1/>
@@ -40,7 +40,7 @@ const Services = () => {
       <div className='bg-[#252525] mt-32'>
         <ServicesSection6/>
         <div
-          className="mt-10 h-[700px] lg:h-[100vh]" // يمكن تحديد ارتفاع مناسب، مثل h-[700px] أو h-full لتعبئة المساحة
+          className="mt-10 h-[700px] lg:h-[829px]" // يمكن تحديد ارتفاع مناسب، مثل h-[700px] أو h-full لتعبئة المساحة
           style={{
             backgroundImage: `url(${bg})`,
             backgroundSize: 'cover',

@@ -15,7 +15,7 @@ const Navbar = () => {
   const isActiveLink = (path) => location.pathname === path;
 
   return (
-    <div className="bg-[#f6f2e9] fixed w-full z-4 top-0 px-7 lg:px-24 py-5 flex justify-between items-center">
+    <div className="bg-[#f6f2e9] fixed w-full z-50 top-0 px-7 lg:px-24 py-2 flex justify-between items-center">
       <div className="items-center gap-3 hidden lg:flex">
         <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
         <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
@@ -26,37 +26,37 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center gap-8">
         <Link
           to="/"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           الرئيسية
         </Link>
         <Link
           to="/about"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/about') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/about') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           عن بهاء الدين
         </Link>
         <Link
           to="/services"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/services') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/services') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           خدماتنا
         </Link>
         <Link
           to="/portfolio"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/portfolio') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/portfolio') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           معرض أعمالنا
         </Link>
         <Link
           to="/blog"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/blog') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/blog') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           مقالات
         </Link>
         <Link
           to="/contact"
-          className={`font-bold transition-all duration-300 ${isActiveLink('/contact') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
+          className={`font-normal lg:text-[20px] transition-all duration-300 ${isActiveLink('/contact') ? 'text-[#907457]' : 'hover:text-[#907457]'}`}
         >
           التواصل
         </Link>
@@ -69,49 +69,49 @@ const Navbar = () => {
 
       {/* الشعار */}
       <Link to='/' className="flex items-center gap-5">
-        <img src={logo} className="w-[80px]" alt="logo" />
+        <img src={logo} className="w-[80px] lg:w-[120px] lg:h-[100.24px]" alt="logo" />
       </Link>
 
       {isMenuOpen && (
         <div className="lg:hidden absolute z-50 top-20 left-0 w-full bg-[#f6f2e9] p-5 shadow-md flex flex-col items-center gap-4">
           <Link
             to="/"
-            className={`hover:text-[#907457] font-bold ${isActiveLink('/') ? 'text-[#907457]' : ''}`}
+            className={`hover:text-[#907457] font-normal lg:text-[20px] ${isActiveLink('/') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             الرئيسية
           </Link>
           <Link
             to="/about"
-            className={`hover:text-[#907457]  font-bold ${isActiveLink('/about') ? 'text-[#907457]' : ''}`}
+            className={`hover:text-[#907457]  font-normal lg:text-[20px] ${isActiveLink('/about') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             عن بهاء الدين
           </Link>
           <Link
             to="/services"
-            className={` hover:text-[#907457] font-bold ${isActiveLink('/services') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-normal lg:text-[20px] ${isActiveLink('/services') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             خدماتنا
           </Link>
           <Link
             to="/portfolio"
-            className={` hover:text-[#907457] font-bold ${isActiveLink('/portfolio') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-normal lg:text-[20px] ${isActiveLink('/portfolio') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             معرض أعمالنا
           </Link>
           <Link
             to="/blog"
-            className={` hover:text-[#907457] font-bold ${isActiveLink('/blog') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-normal lg:text-[20px] ${isActiveLink('/blog') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             مقالات
           </Link>
           <Link
             to="/contact"
-            className={` hover:text-[#907457] font-bold ${isActiveLink('/contact') ? 'text-[#907457]' : ''}`}
+            className={` hover:text-[#907457] font-normal ${isActiveLink('/contact') ? 'text-[#907457]' : ''}`}
             onClick={toggleMenu}
           >
             التواصل

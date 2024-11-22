@@ -8,7 +8,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Reservation from './pages/Reservation';
+import Reservation from './components/Reservation';
 function App() {
   return (
     <div className="app">
@@ -21,7 +21,6 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/reservation' element={<Reservation />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
