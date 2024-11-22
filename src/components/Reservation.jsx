@@ -12,7 +12,7 @@ const Reservation = ({ handleClose }) => {
         >
           <FaTimes />
         </button>
-        <div className="bg-[#2f2c2c]  lg:w-full w-[90%] mx-auto border-gray-400 p-3.5 flex flex-col lg:flex-row justify-center gap-10 items-center rounded-lg">
+        <div className="bg-[#2f2c2c]  lg:w-full w-[90%] mx-auto border-gray-400 p-3.5 lg:p-5 flex flex-col lg:flex-row justify-center gap-10 items-center rounded-lg">
           {/* النصوص والنموذج */}
           <div className="lg:w-1/2 w-full">
             <h2 className="text-white lg:text-3xl text-xl font-bold text-center lg:text-right">
