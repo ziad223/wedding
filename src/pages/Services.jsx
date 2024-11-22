@@ -40,30 +40,29 @@ const Services = () => {
       <div className='bg-[#252525] mt-32'>
         <ServicesSection6/>
         <div
-          className="mt-10 h-[700px] lg:h-[829px]" // يمكن تحديد ارتفاع مناسب، مثل h-[700px] أو h-full لتعبئة المساحة
+          className="h-[700px] lg:h-[829px] flex justify-center items-center text-center px-4"
           style={{
             backgroundImage: `url(${bg})`,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover', // لضمان ملء الخلفية للمساحة
+            backgroundPosition: 'center', // لتوسيط الخلفية
+            backgroundRepeat: 'no-repeat', // لمنع تكرار الخلفية
           }}
         >
-          <div className="flex justify-center items-center h-full text-center px-4">
-            <div className="w-full max-w-2xl"> {/* هذا يحدد أقصى عرض للمحتوى */}
-              <h2 className="text-white text-xl lg:text-2xl font-bold">
-                هل ترغبين في تصميم فستان أحلامك؟ تواصلي معنا الآن لحجز
-                <span className="md:block">
-                  استشارتك الخاصة.
-                </span>
-              </h2>
-              <Link
-                to="/contact"
-                className="bg-[#907457] block w-max mx-auto  px-8 sm:px-10 md:px-14 py-3 text-lg sm:text-xl text-white rounded-lg cursor-pointer hover:bg-[#795b3b] transition-all duration-300 mt-6"
-              >
-                تواصلي معنا
-              </Link>
-            </div>
+          <div className="w-full max-w-2xl">
+            {/* يحدد عرض المحتوى ليكون مناسباً على مختلف الشاشات */}
+            <h2 className="text-white text-xl lg:text-2xl font-bold">
+              هل ترغبين في تصميم فستان أحلامك؟ تواصلي معنا الآن لحجز
+              <span className="md:block">استشارتك الخاصة.</span>
+            </h2>
+            <Link
+              to="/contact"
+              className="bg-[#907457] block w-max mx-auto px-8 sm:px-10 md:px-14 py-3 text-lg sm:text-xl text-white rounded-lg cursor-pointer hover:bg-[#795b3b] transition-all duration-300 mt-6"
+            >
+              تواصلي معنا
+            </Link>
           </div>
         </div>
+
 
       </div>
       
