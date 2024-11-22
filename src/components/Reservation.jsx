@@ -38,22 +38,22 @@ const Reservation = ({ handleClose }) => {
             <input
               type="text"
               placeholder="رقم الهاتف"
-              className="w-full mt-3 rounded-sm bg-[#393737] p-3 outline-none"
+              className="w-full mt-3 rounded-sm text-white bg-[#393737] p-3 outline-none"
             />
             <input
               type="text"
               placeholder="العنوان"
-              className="w-full mt-3 rounded-sm bg-[#393737] p-3 outline-none"
+              className="w-full mt-3 rounded-sm text-white bg-[#393737] p-3 outline-none"
             />
             <input
               type="text"
               placeholder="موعد الزيارة"
-              className="w-full mt-3 rounded-sm bg-[#393737] p-3 outline-none"
+              className="w-full mt-3 rounded-sm text-white bg-[#393737] p-3 outline-none"
             />
             <input
               type="text"
               placeholder="ملاحظة"
-              className="w-full mt-3 rounded-sm bg-[#393737] p-3 outline-none"
+              className="w-full mt-3 rounded-sm text-white bg-[#393737] p-3 outline-none"
             />
             <button className="bg-[#907457] px-8 text-lg py-2 mt-5 text-white rounded-sm cursor-pointer hover:bg-[#795b3b] transition-all block w-full duration-300">
               ارسال

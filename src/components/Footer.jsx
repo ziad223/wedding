@@ -5,7 +5,7 @@ import { FiMail } from 'react-icons/fi';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#252525] text-gray-100 p-10">
+        <footer className="bg-[#252525] text-gray-100 p-5">
             <div className="container mx-auto flex flex-col lg:flex-row justify-between items-start gap-10 px-4 md:px-8 lg:px-24">
 
                 {/* القسم الأول */}
