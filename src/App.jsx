@@ -8,11 +8,12 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Reservation from './components/Reservation';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div className="app">
     <BrowserRouter>
+        <ScrollToTop />
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />

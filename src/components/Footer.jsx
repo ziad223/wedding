@@ -5,13 +5,13 @@ import { FiMail } from 'react-icons/fi';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#252525] text-gray-100 p-5">
+        <footer className="bg-[#252525] text-gray-100 p-8">
             <div className="container mx-auto flex flex-col lg:flex-row justify-between items-start gap-10 px-4 md:px-8 lg:px-24">
 
                 {/* القسم الأول */}
                 <div className="w-full lg:w-auto text-center lg:text-right flex flex-col gap-4">
                     <h2 className="text-xl lg:text-[48px] font-normal mb-5">Logo</h2>
-                    <p className="text-lg font-normal lg:w-[379px] lg:h-[140px] mb-8">
+                    <p className="text-lg lg:text-[18px] font-normal lg:w-[379px] lg:h-[140px] mb-8">
                         موقع "Bahaa Eldin" هو وجهتك المثالية لفساتين الأفراح، حيث نقدم مجموعة رائعة من الفساتين بأعلى معايير الجودة والأناقة. نساعدك في العثور على الفستان المثالي الذي يعكس أسلوبك في يومك الكبير. انضمي إلينا واستمتعي بتجربة تسوق مميزة!
                     </p>
                     <div className="flex gap-4 justify-center lg:justify-start">
@@ -23,7 +23,7 @@ const Footer = () => {
 
                 {/* القسم الثاني */}
                 <div className="w-full lg:w-auto text-center lg:text-right">
-                    <h2 className="text-xl lg:text-3xl font-semibold mb-5">الرابط</h2>
+                    <h2 className="text-xl lg:text-[24px] font-bold mb-5">الرابط</h2>
                     <ul className="flex flex-col gap-5">
                         <li><Link className="hover:text-[#907457] lg:text-[18px] font-normal transition-all" to="/">الرئيسيه</Link></li>
                         <li><Link className="hover:text-[#907457] lg:text-[18px] font-normal transition-all" to="/about">عن بهاء الدين</Link></li>
@@ -52,6 +52,8 @@ const Footer = () => {
                 </div>
 
             </div>
+            <hr className='my-8 text-gray-400 ' />
+            <h2 className='text-center lg:text-2xl text-xl'>Developed by High Level Technology</h2>
         </footer>
     );
 };
