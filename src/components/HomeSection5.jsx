@@ -25,14 +25,28 @@ const HomeSection5 = () => {
 
         {/* العمود الثاني */}
         <div className="lg:w-2/3 w-full flex flex-col gap-5">
-          <div className="flex flex-col gap-5">
-            <div className="flex ">
-              <img src={home8} alt="home8" className="w-1/2 h-full lg:w-[384px] lg:h-[512px] object-cover " />
-              <img src={home9} alt="home9" className="w-1/2 h-full lg:w-[384px] lg:h-[512px] object-cover " />
-            </div>
-            <img src={home10} alt="home10" className="w-full h-full lg:w-[792px] lg:h-[392px] object-cover " />
+          {/* الصور العلوية */}
+          <div className="flex gap-2">
+            <img
+              src={home8}
+              alt="home8"
+              className="w-1/2 lg:w-[375px] h-auto lg:h-[512px] object-cover"
+            />
+            <img
+              src={home9}
+              alt="home9"
+              className="w-1/2 lg:w-[375px] h-auto lg:h-[512px] object-cover"
+            />
           </div>
+          {/* الصورة السفلية */}
+          <img
+            src={home10}
+            alt="home10"
+            className="w-full lg:w-[792px] h-auto lg:h-[392px] object-cover"
+          />
         </div>
+
+
         
       </div>
       <div className='mx-auto block text-center'>
