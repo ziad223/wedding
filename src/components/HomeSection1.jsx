@@ -33,7 +33,7 @@ const HomeSection1 = () => {
                 </p>
                 <Link
                     to="/contact"
-                    className="bg-[#907457] mx-auto py-3 px-6 lg:w-[200px] lg:h-[60px] sm:px-10 text-base sm:text-xl text-white rounded-lg mt-4 hover:bg-[#7c6246] transition-all duration-300 flex items-center justify-center text-center lg:text-right w-[160px] sm:w-[200px] h-[50px] sm:h-[60px] mx-auto lg:mx-0"
+                    className="bg-[#907457]  py-3 px-6 lg:w-[200px] lg:h-[60px] sm:px-10 text-base sm:text-xl text-white rounded-lg mt-4 hover:bg-[#7c6246] transition-all duration-300 flex items-center justify-center text-center lg:text-right w-[160px] sm:w-[200px] h-[50px] sm:h-[60px] mx-auto lg:mx-0"
                 >
                     تواصل معنا
                 </Link>
