@@ -53,7 +53,7 @@ const Footer = () => {
 
             </div>
             <hr className='mt-10 mb-2 text-gray-400 opacity-60 ' />
-            <h2 className='text-center lg:text-2xl text-xl'>Developed by High Level Technology</h2>
+            <h2 className='text-center lg:text-xl text-lg'>Developed by High Level Technology</h2>
         </footer>
     );
 };
