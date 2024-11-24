@@ -10,7 +10,7 @@ const Blog = () => {
       <h2 className='lg:text-[64px] font-normal lg:w-[922px] lg:h-[176px] mx-auto leading-[1.3] text-xl  text-center ' style={{ wordSpacing: '5px' }}>
         اكتشفي أحدث صيحات فساتين  الزفاف لعام 2024
       </h2>
-      <p className='text-xl text-center mt-7 lg:w-[1179px] lg:h-[62px] text-[##808080]'>
+      <p className='text-xl lg:text-[24px] font-light leading-[1.5] text-center mt-7 lg:w-[1179px] lg:h-[62px] text-[##808080]'>
         استعدي ليومك المميز وتعرفي على آخر صيحات فساتين الزفاف لهذا العام. من التصميمات الكلاسيكية إلى الأساليب العصرية،   جمعنا لكِ كل ما تحتاجينه لإطلالة مثالية ومليئة بالأناقة في ليلة العمر. 
       </p>
       <hr className='#dedede my-16' />
