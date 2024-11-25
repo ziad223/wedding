@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import home3 from "../images/home/home-3.png";
-import home4 from "../images/home/home-4.png";
-import home5 from "../images/home/home-5.png";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const HomeSection4 = () => {
+  const [images, setImages] = useState([]); // لتخزين الصور القادمة من API
   const [currentSlide, setCurrentSlide] = useState(0); // لتحديد الشريحة النشطة
+  const baseUrl = "https://highleveltecknology.com/bahaa/public/";
 
+  // إعدادات السلايدر
   const settings = {
     dots: false,
     infinite: true,
@@ -41,27 +41,49 @@ const HomeSection4 = () => {
     ],
   };
 
-  const images = [home3, home4, home5, home3, home4, home5];
+  // جلب الصور من API
+  useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        const response = await fetch(
+          "https://highleveltecknology.com/bahaa/public/all_slides/2"
+        );
+        const data = await response.json();
+        if (data && Array.isArray(data.Gallery)) {
+          // استخراج الصور من مفتاح Gallery
+          setImages(data.Gallery.map((item) => `${baseUrl}${item.img}`)); // إضافة الرابط الأساسي لكل صورة
+        }
+      } catch (error) {
+        console.error("خطأ في جلب الصور:", error);
+      }
+    };
+
+    fetchImages();
+  }, []);
 
   return (
     <div className="bg-[#f6f2e9] px-4 md:px-8 lg:px-24 py-10">
       <h2 className="lg:text-4xl text-xl">معرض الأعمال</h2>
-      <Slider {...settings} className="mt-20">
-        {images.map((image, index) => (
-          <div key={index} className="relative lg:h-[630px] h-[413px]">
-            <div className="absolute bottom-0 w-full flex justify-center">
-              <img
-                src={image}
-                alt={`image-${index}`}
-                className={`transition-all duration-200 object-contain ${currentSlide === index
-                  ? "lg:h-[649px] lg:w-[496px] object-contain"  // الحفاظ على المحاذاة بدون تغيير الاتجاه
-                  : "lg:h-[413px] lg:w-[332px] object-contain"
-                  }`}
-              />
+      {images.length > 0 ? ( // عرض السلايدر فقط إذا كانت الصور متوفرة
+        <Slider {...settings} className="mt-20">
+          {images.map((image, index) => (
+            <div key={index} className="relative lg:h-[630px] h-[413px]">
+              <div className="absolute bottom-0 w-full flex justify-center">
+                <img
+                  src={image}
+                  alt={`image-${index}`}
+                  className={`transition-all duration-200 object-contain ${currentSlide === index
+                    ? "lg:h-[649px] lg:w-[496px] object-contain" // الحفاظ على المحاذاة بدون تغيير الاتجاه
+                    : "lg:h-[413px] lg:w-[332px] object-contain"
+                    }`}
+                />
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      ) : (
+        <p className="text-center text-gray-500">جاري تحميل الصور...</p> // رسالة أثناء تحميل الصور
+      )}
 
       <div className="mx-auto block text-center">
         <Link

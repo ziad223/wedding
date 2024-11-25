@@ -53,7 +53,20 @@ const Footer = () => {
 
             </div>
             <hr className='mt-10 mb-2 text-gray-400 opacity-60 ' />
-            <h2 className='text-center lg:text-xl text-lg'>Developed by High Level Technology</h2>
+            <h2
+                className="text-center text-[10px] font-sans"
+                style={{ fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' }}
+            >
+                Developed by{' '}
+                <Link
+                    to="https://highleveltecknology.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                >
+                    High Level Technology
+                </Link>
+            </h2>
         </footer>
     );
 };
