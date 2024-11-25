@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import BlogDetails from './components/blogDetails';
+import BlogDetails from './components/BlogDetails';
 function App() {
   return (
     <div className="app">
