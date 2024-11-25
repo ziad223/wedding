@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import BlogDetails from './components/blogDetails';
 function App() {
   return (
     <div className="app">
@@ -22,6 +23,8 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path="/blog/:id" element={<BlogDetails />} />
+
       </Routes>
       <Footer/>
     </BrowserRouter>

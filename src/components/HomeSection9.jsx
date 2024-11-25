@@ -1,13 +1,44 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const HomeSection9 = () => {
-  return (
-      <div className=" my-20">
-          <div className="flex justify-center">
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/Jh_-XaO73h8" title="BASS LANNA Wedding Studio by MUG WEDDING" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-      </div>
-  );
-}
+    const [videoUrl, setVideoUrl] = useState('');
+
+    useEffect(() => {
+        // Fetch the video URL from the API
+        const fetchVideo = async () => {
+            try {
+                const response = await axios.get('https://highleveltecknology.com/bahaa/public/all_slides/5');
+                const videoPath = response.data?.video[0]?.img;
+                if (videoPath) {
+                    setVideoUrl(`https://highleveltecknology.com/bahaa/public/${videoPath}`);
+                }
+            } catch (error) {
+                console.error('Error fetching the video URL:', error);
+            }
+        };
+
+        fetchVideo();
+    }, []);
+
+    return (
+        <div className="my-20">
+            <div className="flex justify-center">
+                {videoUrl ? (
+                    <video
+                        width="100%"
+                        height="500"
+                        controls
+                        src={videoUrl}
+                    >
+                        Your browser does not support the video tag.
+                    </video>
+                ) : (
+                    <p>Loading video...</p>
+                )}
+            </div>
+        </div>
+    );
+};
 
 export default HomeSection9;
