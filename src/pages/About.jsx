@@ -1,11 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import aboutHero from '../images/about/about-hero.png';
 import AboutSection1 from '../components/AboutSection1';
 import AboutSection2 from '../components/AboutSection2';
 import AboutSection3 from '../components/AboutSection3';
 import AboutSection4 from '../components/AboutSection4';
+import axios from 'axios';
 
 const About = () => {
+  const [videoUrl, setVideoUrl] = useState('');
+
+  useEffect(() => {
+    // Fetch the video URL from the API
+    const fetchVideo = async () => {
+      try {
+        const response = await axios.get('https://highleveltecknology.com/bahaa/public/all_slides/5');
+        const videoPath = response.data?.video[0]?.img;
+        if (videoPath) {
+          setVideoUrl(`https://highleveltecknology.com/bahaa/public/${videoPath}`);
+        }
+      } catch (error) {
+        console.error('Error fetching the video URL:', error);
+      }
+    };
+
+    fetchVideo();
+  }, []);
   return (
     <div className=''>
          <div className=''>
@@ -18,17 +37,17 @@ const About = () => {
         </p>
          </div>
       <div className="flex justify-center">
-        <div className="relative w-full" style={{ paddingBottom: '56.25%' /* النسبة 16:9 */ }}>
-          <iframe
-            className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/Jh_-XaO73h8"
-            title="BASS LANNA Wedding Studio by MUG WEDDING"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
+        {videoUrl ? (
+          <video
+            width="100%"
+            height="500"
+            controls
+            src={videoUrl}
+          >
+          </video>
+        ) : (
+          <p>Loading video...</p>
+        )}
       </div>
       <AboutSection1 />
       <AboutSection2 />

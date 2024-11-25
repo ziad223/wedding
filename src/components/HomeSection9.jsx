@@ -31,7 +31,6 @@ const HomeSection9 = () => {
                         controls
                         src={videoUrl}
                     >
-                        Your browser does not support the video tag.
                     </video>
                 ) : (
                     <p>Loading video...</p>
