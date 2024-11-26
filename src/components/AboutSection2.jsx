@@ -5,7 +5,7 @@ import bg from '../images/about/bg.png';
 
 const AboutSection2 = () => {
   return (
-      <div className='bg-[#252525] px-4 md:px-16 lg:px-24 py-10 gap-5 lg:gap-0 flex justify-center items-center flex-col lg:flex-row' style={{backgroundImage : `url(${bg})` , backgroundPosition : 'center' , backgroundSize : 'contain' , backgroundRepeat : 'no-repeat'}}>
+      <div className='bg-[#252525] my-24 px-4 md:px-16 lg:px-24 py-10 gap-5 lg:gap-0 flex justify-center items-center flex-col lg:flex-row' style={{backgroundImage : `url(${bg})` , backgroundPosition : 'center' , backgroundSize : 'contain' , backgroundRepeat : 'no-repeat'}}>
           <div className='w-full text-center  lg:text-right lg:mb-20'>
               <h2 className='lg:text-[40px] font-bold text-white lg:w-[664px] lg:h-[67px]'>لمحة عن المصمم بهاء الدين</h2>
               <p className='mt-4 text-gray-200 text-lg lg:w-[664px] lg:h-[120px] leading-[1.4] font-light lg:text-[28px]'>

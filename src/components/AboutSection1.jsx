@@ -3,7 +3,7 @@ import img from '../images/about/about-img-1.png';
 
 const AboutSection1 = () => {
     return (
-        <div className="bg-white p-10 px-4 md:px-16 lg:px-24 flex flex-col gap-5 lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="bg-white p-10 px-4 md:px-16 lg:px-24 flex flex-col gap-5 lg:flex-row items-center my-24 lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
             {/* القسم الأول */}
             <div className="w-full lg:w-1/3 text-center lg:text-left lg:ml-5">
                 <h2 className="text-2xl lg:text-[48px] font-bold text-[#907457]">رؤيتنا ورسالتنا</h2>

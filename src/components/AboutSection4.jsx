@@ -71,7 +71,7 @@ const AboutSection4 = () => {
                 </div>
             </div>
             <div
-                className="mt-10 h-[500px] lg:h-[725px] lg:w-[1440px] bg-cover bg-center bg-no-repeat"
+                className="mt-20 h-[500px] lg:h-[725px] lg:w-[1440px] bg-cover bg-center bg-no-repeat"
                 style={{
                     backgroundImage: `url(${bg})`,
                 }}
