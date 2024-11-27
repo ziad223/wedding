@@ -9,23 +9,34 @@ import img7 from '../images/home/home-17.png';
 import img8 from '../images/home/home-18.png';
 import img9 from '../images/home/home-19.png';
 import img10 from '../images/home/home-20.png';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const HomeSection8 = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <div className='px-4 md:px-8 lg:px-24 my-20'>
       <h2 className='lg:text-[48px] text-xl text-center lg:text-right lg:w-[638px] lg:h-[108px]'>
         لماذا تختارين فساتين بهاء <span className='lg:block mt-6'>الدين</span>
          </h2>
-       <div className="mt-14 flex flex-col items-center lg:flex-row text-center lg:text-right gap-10 justify-between">
-              <div>
-          <h2 className='lg:text-[38px] text-xl font-bold lg:w-[297px] lg:h-[35px]'>تصاميم فريدة</h2>
-          <p className='lg:text-[32px] text-lg mt-5 lg:w-[524px] lg:h-[95px] font-light leading-[1.4]'>
-                    كل فستان يتم تصميمه ليناسب شخصيتك ويعكس رؤيتك الخاصة.
-                  </p>
-              </div>
-        <img src={img1} alt="wedding" className='lg:w-[367px] lg:h-[284px]' />
+     
+        <div className="mt-14 flex flex-col items-center lg:flex-row text-center lg:text-right gap-10 justify-between">
+          <div>
+            <h2 className='lg:text-[38px] text-xl font-bold lg:w-[297px] lg:h-[35px]'>تصاميم فريدة</h2>
+            <p className='lg:text-[32px] text-lg mt-5 lg:w-[524px] lg:h-[95px] font-light leading-[1.4]'>
+              كل فستان يتم تصميمه ليناسب شخصيتك ويعكس رؤيتك الخاصة.
+            </p>
+          </div>
+          <img src={img1} alt="wedding" className='lg:w-[367px] lg:h-[284px]' />
 
-       </div>
+        </div>
       <div className="mt-14 flex flex-col items-center lg:flex-row text-center lg:text-right gap-10 justify-between">
         <div>
           <h2 className='lg:text-[38px] text-xl font-bold lg:w-[511px] lg:h-[48px]'>خامات عالية الجودة وهاند ميد</h2>
@@ -111,8 +122,7 @@ const HomeSection8 = () => {
         </div>
         <img src={img9} alt="wedding" className='lg:w-[367px] lg:h-[284px]' />
 
-      </div>
-     
+      </div>     
     </div>
   );
 }

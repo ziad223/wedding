@@ -36,7 +36,7 @@ const Reservation = ({ handleClose }) => {
               />
             </div>
             <input
-              type="text"
+              type="number"
               placeholder="رقم الهاتف"
               className="w-full mt-3 rounded-sm text-white bg-[#393737] p-3 outline-none"
             />
