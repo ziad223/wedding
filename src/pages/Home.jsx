@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Slider from "react-slick";
 import HomeSection1 from "../components/HomeSection1";
 import HomeSection2 from "../components/HomeSection2";
 import HomeSection3 from "../components/HomeSection3";
@@ -14,6 +13,7 @@ import HomeSection10 from "../components/HomeSection10";
 import HomeSection11 from "../components/HomeSection11";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Home = () => {
   const sliderSettings = {

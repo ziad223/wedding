@@ -53,7 +53,7 @@ const HomeSection10 = () => {
             <div className='absolute hidden lg:block -z-20 lg:top-[-160px] lg:left-0'>
                 <img src={layer} alt="layer" className='lg:w-[1063.48px] lg:h-[704.18px]' />
             </div>
-            <div className='lg:w-[60%] mx-auto'> {/* This ensures the entire slider container is 60% on large screens */}
+            <div className='lg:w-[727px] lg:h-[213px] mx-auto'> {/* This ensures the entire slider container is 60% on large screens */}
                 <Slider {...settings}>
                     {/* Slide 1 */}
                     <div className='bg-[#f6f2e9] p-5  '>

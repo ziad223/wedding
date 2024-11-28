@@ -14,9 +14,9 @@ const HomeSection7 = () => {
           نحن نقدم مجموعة متميزة من الخدمات لتلبية كافة احتياجات العروس <span className='lg:block'>وجعل يوم زفافها استثنائيًا</span>
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 lg:gap-0 justify-center items-center mt-20 z-20">
-        <div className='lg:w-1/3 w-full hover:z-50 transform transition-all duration-300 hover:scale-105 '>
-          <img src={img1} alt="service1" />
+      <div className="flex lg:flex-row flex-col gap-5  lg:gap-0 justify-center items-center mt-20 -z-20">
+        <div className='lg:w-1/3 w-full transform transition-all duration-300 hover:scale-105 '>
+          <img src={img1} alt="service1" className='' />
         </div>
         <div className='flex flex-col border gap-3 text-center lg:w-1/3 w-full transform transition-all duration-300 hover:scale-105 '>
           <div className='p-3'>
@@ -43,11 +43,12 @@ const HomeSection7 = () => {
       <div>
         <Link
           to="/contact"
-          className="bg-[#907457] block mx-auto mt-10 w-max py-3 px-20 text-xl text-white rounded-lg  hover:bg-[#7c6246] transition-all duration-300"
+          className="bg-[#907457] lg:w-[242px] w-max p-3 lg:p-0 lg:h-[60px] mx-auto mt-10 text-xl text-white rounded-lg hover:bg-[#7c6246] transition-all duration-300 flex justify-center items-center"
         >
           أقرئي المزيد
         </Link>
       </div>
+
     </div>
   );
 }
