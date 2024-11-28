@@ -123,7 +123,7 @@ const Contact = () => {
               </div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.9422267281653!2d31.365895574366095!3d31.050324476744596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79d004fbd7b27%3A0x8e2b1106c47a8d8b!2z2KfZhNin2YTYqtiqINmE2YTYr9iz2YrZhtinINmG2YTZiNin2YYg2KfZhNmI2KjYp9mE2Kkg2YHZhNmE2YjYrA!5e0!3m2!1sar!2seg!4v1690728392707!5m2!1sar!2seg"
-                className="h-max w-full mt-6 lg:h-[155px] lg:w-[366px]"
+                className="h-max w-full mt-6 lg:h-[155px] lg:mr-12 lg:w-[366px]"
                 title="Location"
                 allowfullscreen=""
                 loading="lazy"

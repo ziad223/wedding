@@ -36,7 +36,7 @@ const Reservation = ({ handleClose }) => {
       axios
         .post('https://highleveltecknology.com/bahaa/public/api/bookes', values)
         .then((response) => {
-          toast.success('تم حجز موعدك بنجاح!', {
+          toast.success('تم حجز موعدك بنجاح' , {
             position: 'top-center',
             autoClose: 3000,
           });
