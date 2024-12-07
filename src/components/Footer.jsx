@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { FiMail } from 'react-icons/fi';
-
+import logo from '../images/footer-logo.png';
+import { FaThreads } from 'react-icons/fa6';
 const Footer = () => {
     return (
         <footer className="bg-[#252525] text-gray-100 p-8">
@@ -10,14 +11,26 @@ const Footer = () => {
 
                 {/* القسم الأول */}
                 <div className="w-full lg:w-auto text-center lg:text-right flex flex-col gap-4">
-                    <h2 className="text-xl lg:text-[48px] font-normal mb-5">Logo</h2>
+                    <img src={logo} alt="Footer Logo" className='lg:w-[120px] w-[80px] mx-auto ' />
                     <p className="text-lg lg:text-[18px] font-normal lg:w-[379px] lg:h-[140px] mb-8">
                         موقع "Bahaa Eldin" هو وجهتك المثالية لفساتين الأفراح، حيث نقدم مجموعة رائعة من الفساتين بأعلى معايير الجودة والأناقة. نساعدك في العثور على الفستان المثالي الذي يعكس أسلوبك في يومك الكبير. انضمي إلينا واستمتعي بتجربة تسوق مميزة!
                     </p>
                     <div className="flex gap-4 justify-center lg:justify-start">
-                        <FaInstagram className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
-                        <FaFacebookF className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
-                        <FaTwitter className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                        <a target='_blank' href="https://www.instagram.com/bahaaeldin.couture/">
+                            <FaInstagram className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                     </a>
+                        <a target='_blank' href="https://www.facebook.com/bahaaeldin.couture">
+                            <FaFacebookF className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                     </a>
+                        <a target='_blank' href="https://www.youtube.com/@BahaaEldin-couture">
+                            <FaYoutube className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                        </a>
+                        <a target='_blank' href="https://www.youtube.com/@BahaaEldin-couture">
+                            <FaTiktok className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                        </a>
+                        <a target='_blank' href="https://www.threads.net/@bahaaeldin.couture">
+                            <FaThreads className="text-xl cursor-pointer hover:text-[#907457] transition-all" />
+                        </a>
                     </div>
                 </div>
 

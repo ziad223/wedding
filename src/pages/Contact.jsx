@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaRegEnvelope, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaRegEnvelope, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { HiOutlinePhone } from 'react-icons/hi';
 import { IoLocationOutline } from 'react-icons/io5';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 import Swal from 'sweetalert2';  // استيراد sweetalert2
+import { FaThreads } from 'react-icons/fa6';
 
 const Contact = () => {
   const formik = useFormik({
@@ -109,7 +110,7 @@ const Contact = () => {
                 <IoLocationOutline className='text-xl' />
               </div>
               <div className='flex gap-3 items-center justify-start lg:justify-end'>
-                <span> 01000034492</span>
+                <span> 01000249942 - 01507000754</span>
                 <HiOutlinePhone className='text-xl' />
               </div>
               <div className='flex gap-3 items-center justify-start lg:justify-end'>
@@ -117,17 +118,29 @@ const Contact = () => {
                 <FaRegEnvelope className='text-xl' />
               </div>
               <div className='flex justify-end items-center gap-6 mt-5'>
-                <FaInstagram className='text-xl' />
-                <FaFacebookF className='text-xl' />
-                <FaTwitter className='text-xl' />
+                <a href="https://www.instagram.com/bahaaeldin.couture/">
+                  <FaInstagram className='text-xl' />
+                </a>
+                <a href="https://www.facebook.com/bahaaeldin.couture">
+                  <FaFacebookF className='text-xl' />
+                </a>
+                <a href="https://www.youtube.com/@BahaaEldin-couture">
+                  <FaYoutube className='text-xl' />
+                </a>
+                <a href="https://www.tiktok.com/@bahaaeldin_couture">
+                  <FaTiktok className='text-xl' />
+                </a>
+                <a href="https://www.threads.net/@bahaaeldin.couture">
+                  <FaThreads className='text-xl' />
+                </a>
               </div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.9422267281653!2d31.365895574366095!3d31.050324476744596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79d004fbd7b27%3A0x8e2b1106c47a8d8b!2z2KfZhNin2YTYqtiqINmE2YTYr9iz2YrZhtinINmG2YTZiNin2YYg2KfZhNmI2KjYp9mE2Kkg2YHZhNmE2YjYrA!5e0!3m2!1sar!2seg!4v1690728392707!5m2!1sar!2seg"
-                className="h-max w-full mt-6 lg:h-[155px] lg:mr-12 lg:w-[366px]"
-                title="Location"
-                allowfullscreen=""
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.835603593735!2d31.235711315321315!3d30.044419381884795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzM5LjkiTiAzMcKwMTQnMDQuNyJF!5e0!3m2!1sen!2seg!4v1692535187608!5m2!1sen!2seg"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
 
             </div>

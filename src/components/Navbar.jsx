@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../images/logo.png';
+import logo from '../images/navbar-logo.png';
+import { FaThreads } from 'react-icons/fa6';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,9 +18,21 @@ const Navbar = () => {
   return (
     <div className="bg-[#f6f2e9] shadow-lg fixed w-full z-50 top-0 px-7 lg:px-24 py-2 flex justify-between items-center">
       <div className="items-center gap-3 hidden lg:flex">
-        <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
-        <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
-        <FaTwitter className="text-[#907457] text-lg cursor-pointer" />
+        <a target='_blank' href="https://www.instagram.com/bahaaeldin.couture/">
+          <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
+       </a>
+        <a target='_blank' href="https://www.facebook.com/bahaaeldin.couture">
+          <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
+        </a>
+        <a target='_blank' href="https://www.youtube.com/@BahaaEldin-couture">
+        <FaYoutube className="text-[#907457] text-lg cursor-pointer" />
+        </a>
+        <a target='_blank' href="https://www.tiktok.com/@bahaaeldin_couture">
+          <FaTiktok className="text-[#907457] text-lg cursor-pointer" />
+        </a>
+        <a target='_blank' href="https://www.threads.net/@bahaaeldin.couture">
+          <FaThreads className="text-[#907457] text-lg cursor-pointer" />
+        </a>
       </div>
 
       {/* الروابط الأساسية */}
@@ -117,9 +130,21 @@ const Navbar = () => {
             التواصل
           </Link>
           <div className="flex items-center gap-3 mt-4">
-            <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
-            <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
-            <FaTwitter className="text-[#907457] text-lg cursor-pointer" />
+            <a target='_blank' href="https://www.instagram.com/bahaaeldin.couture/">
+              <FaInstagram className="text-[#907457] text-lg cursor-pointer" />
+            </a>
+            <a target='_blank' href="https://www.facebook.com/bahaaeldin.couture">
+              <FaFacebookF className="text-[#907457] text-lg cursor-pointer" />
+            </a>
+            <a target='_blank' href="https://www.youtube.com/@BahaaEldin-couture">
+              <FaYoutube className="text-[#907457] text-lg cursor-pointer" />
+            </a>
+            <a target='_blank' href="https://www.tiktok.com/@bahaaeldin_couture">
+              <FaTiktok className="text-[#907457] text-lg cursor-pointer" />
+            </a>
+            <a target='_blank' href="https://www.threads.net/@bahaaeldin.couture">
+              <FaThreads className="text-[#907457] text-lg cursor-pointer" />
+            </a>
           </div>
         </div>
       )}
