@@ -12,6 +12,7 @@ const AboutSection1 = () => {
             {/* صورة في الوسط */}
             <div className="w-full lg:w-1/3 flex justify-center">
                 <img
+                    loading="lazy"
                     src={img}
                     alt="wedding-img"
                     className="lg:w-[466px] lg:h-auto lg:max-h-[450px] object-cover h-auto"

@@ -12,8 +12,8 @@ const AboutSection2 = () => {
 بهاء الدين هو مصمم أزياء رائد في مصر، يتمتع بشغف لتصميم فساتين الزفاف التي تمزج بين الأناقة العصرية والتقاليد، ليحقق لكل عروس فستان أحلامها.              </p>
           </div>
           <div className='w-full md:w-1/2 relative flex justify-center'>
-              <img src={img2} alt="about-img" className='absolute lg:w-[245px] lg:h-[176px] z-20 -bottom-4 w-40 left-64  sm:left-60 lg:left-[400px] transform -translate-x-1/2 md:w-auto' />
-              <img src={img1} alt="about-img" className='mx-auto lg:mx-0 w-3/4 md:w-auto z-10 lg:w-[371px] lg:h-[427px]' />
+              <img loading="lazy" src={img2} alt="about-img" className='absolute lg:w-[245px] lg:h-[176px] z-20 -bottom-4 w-40 left-64  sm:left-60 lg:left-[400px] transform -translate-x-1/2 md:w-auto' />
+              <img loading="lazy" src={img1} alt="about-img" className='mx-auto lg:mx-0 w-3/4 md:w-auto z-10 lg:w-[371px] lg:h-[427px]' />
           </div>
       </div>
 

@@ -28,7 +28,7 @@ const HomeSection5 = () => {
     <div className="px-4 md:px-8 lg:px-24 my-20 relative">
       <h2 className="lg:text-4xl text-xl text-center lg:text-right">مجموعتنا</h2>
       <div className="lg:absolute hidden lg:block lg:top-[-150px] lg:left-[-20px] -z-20">
-        <img src={layer} className="lg:w-[811px] lg:h-[537px]" alt="layer" />
+        <img loading="lazy" src={layer} className="lg:w-[811px] lg:h-[537px]" alt="layer" />
       </div>
       <div className="flex flex-col lg:flex-row justify-center gap-5 mt-16">
         {/* العمود الأول */}

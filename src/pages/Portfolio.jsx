@@ -23,7 +23,7 @@ const Portfolio = () => {
   return (
     <div>
         <div>
-        <img src={porfolioHero} alt="portfolio-HERO" className='lg:w-[1440px] lg:h-[827px] object-contain' />
+        <img loading="lazy" src={porfolioHero} alt="portfolio-HERO" className='lg:w-[1440px] lg:h-[827px] object-contain' />
         </div> 
       <div className='text-center bg-white p-5 lg:p-10 lg:my-10'>
         <h2 className='text-[#907457] font-bold lg:text-[40px] lg:w-[931px] lg:h-[50px] mx-auto'>استمتعِ بتجربة فريدة مع تصاميم فساتيننا</h2>
@@ -36,16 +36,16 @@ const Portfolio = () => {
 
         <div className='my-10 px-4 md:px-16 lg:px-24 flex lg:flex-row  flex-col gap-3'>
           <div className='mr-2 lg:mr-0'>
-          <img src={porfolio1} alt="porfolio1" className='lg:w-[271px] mx-auto lg:h-[422px]' />
+          <img loading="lazy" src={porfolio1} alt="porfolio1" className='lg:w-[271px] mx-auto lg:h-[422px]' />
           </div>
           <div className='mr-2 lg:mr-0'>
-          <img src={porfolio2} alt="porfolio2" className='lg:w-[271px] mx-auto  lg:h-[422px]' />
+          <img loading="lazy" src={porfolio2} alt="porfolio2" className='lg:w-[271px] mx-auto  lg:h-[422px]' />
            </div>
            <div className='mr-2 lg:mr-0'>
-          <img src={porfolio3} alt="porfolio3" className='lg:w-[271px] mx-auto  lg:h-[422px]' />
+          <img loading="lazy" src={porfolio3} alt="porfolio3" className='lg:w-[271px] mx-auto  lg:h-[422px]' />
            </div>
           <div className='relative'>
-          <img src={porfolio4} alt="Fashion" className='w-full h-[500px] mx-auto  object-cover lg:w-[315px] lg:h-[566px] ' />
+          <img loading="lazy" src={porfolio4} alt="Fashion" className='w-full h-[500px] mx-auto  object-cover lg:w-[315px] lg:h-[566px] ' />
 
             {/* طبقة overlay */}
             <div className='absolute inset-0 bg-black opacity-50'></div>
@@ -64,16 +64,16 @@ const Portfolio = () => {
         </div>
         <div className='my-10 px-4 md:px-16 lg:px-24 flex lg:flex-row flex-col gap-3'>
           <div className='mr-2 lg:mr-0'>
-            <img src={porfolio5} alt="porfolio5"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
+            <img loading="lazy" src={porfolio5} alt="porfolio5"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
           </div>
           <div className='mr-2 lg:mr-0'>
-            <img src={porfolio6} alt="porfolio6"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
+            <img loading="lazy" src={porfolio6} alt="porfolio6"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
           </div>
           <div className='mr-2 lg:mr-0'>
-            <img src={porfolio7} alt="porfolio7"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
+            <img loading="lazy" src={porfolio7} alt="porfolio7"  className='lg:w-[271px] mx-auto  lg:h-[422px]'  />
           </div>
           <div className='relative'>
-          <img src={porfolio8} alt="Fashion" className='w-full h-[500px] mx-auto  object-cover lg:w-[315px] lg:h-[566px] ' />
+          <img loading="lazy" src={porfolio8} alt="Fashion" className='w-full h-[500px] mx-auto  object-cover lg:w-[315px] lg:h-[566px] ' />
 
             {/* طبقة overlay */}
             <div className='absolute inset-0 bg-black opacity-50'></div>

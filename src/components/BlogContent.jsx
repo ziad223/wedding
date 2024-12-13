@@ -22,11 +22,11 @@ const BlogContent = () => {
       <h2 className="font-bold lg:text-[48px] text-xl mb-10 lg:w-[755px] lg:h-[48px]">
         ابقِ على اطلاع بأحدث صيحات الموضة
       </h2>
-      <div className="flex flex-col lg:flex-row justify-center gap-4">
+      <div className="flex flex-col flex-wrap lg:flex-row  gap-4">
         {blogs.map((blog) => (
           <div
             key={blog.id}
-            className="w-full sm:w-1/2 lg:w-1/3 bg-[#f6f2e9] border p-1"
+            className="w-full lg:w-[31%] bg-[#f6f2e9] border p-1"
           >
             <img
               src={`https://highleveltecknology.com/bahaa/public/${blog.img}`}
@@ -37,7 +37,7 @@ const BlogContent = () => {
               <h2 className="lg:text-[24px] font-normal text-lg">
                 {blog.title}
               </h2>
-              <p className="mt-3 text-lg font-light lg:text-[16px] lg:w-[353px] lg:h-[88px]">
+              <p className="mt-3 text-lg font-light lg:text-[16px] lg:h-[88px]">
                 {blog.text}
               </p>
               <button

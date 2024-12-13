@@ -36,10 +36,10 @@ const AboutSection3 = () => {
             {/* Right Side */}
             <div className="w-full lg:w-1/2 flex flex-col lg:flex-row gap-5 mt-10 lg:mt-0">
                 <div className='flex flex-col gap-3 w-full lg:w-1/2'>
-                    <img src={img1} alt="img1" className='w-full h-full' />
-                    <img src={img2} alt="img2" className='w-full h-full' />
+                    <img loading="lazy" src={img1} alt="img1" className='w-full h-full' />
+                    <img loading="lazy" src={img2} alt="img2" className='w-full h-full' />
                 </div>
-                <img src={img3} alt="img3" className='w-full h-auto lg:w-1/2' />
+                <img loading="lazy" src={img3} alt="img3" className='w-full h-auto lg:w-1/2' />
             </div>
         </div>
     );

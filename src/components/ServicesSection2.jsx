@@ -19,7 +19,7 @@ const ServicesSection2 = () => {
                     </Link>
                 </div>
             </div>
-            <img src={img1} alt="service-img" className='w-full xl:w-auto mt-5 xl:mt-0 lg:w-[678px] lg:h-[387px]' />
+            <img loading="lazy" src={img1} alt="service-img" className='w-full xl:w-auto mt-5 xl:mt-0 lg:w-[678px] lg:h-[387px]' />
         </div>
     );
 }

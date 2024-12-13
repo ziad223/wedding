@@ -13,6 +13,7 @@ const BlogDetails = () => {
     return (
         <div className="px-4 md:px-16 lg:px-24 my-32 mx-auto py-10 text-center">
             <img
+                loading="lazy" 
                 src={`https://highleveltecknology.com/bahaa/public/${img}`}
                 alt={title}
                 className=" lg:w-[500px] lg:h-[500px] mx-auto mb-5"

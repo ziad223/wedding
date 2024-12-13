@@ -186,6 +186,7 @@ const Reservation = ({ handleClose }) => {
           {/* الصورة */}
           <div className="lg:w-1/2 hidden lg:block w-full mt-5 lg:mt-0">
             <img
+              loading="lazy" 
               src={img}
               alt="reservation"
               className="w-full h-full object-cover rounded-sm"

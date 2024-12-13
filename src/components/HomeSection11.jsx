@@ -15,9 +15,9 @@ const HomeSection11 = () => {
             </p>
         </div>
         <div className='mt-10 flex lg:flex-row flex-col justify-center gap-6 items-center '>
-              <img src={img1} alt="homeBlog1" />
-              <img src={img2} alt="homeBlog2" className='lg:mt-40' />
-              <img src={img3} alt="homeBlog3" />
+              <img loading="lazy" src={img1} alt="homeBlog1" />
+              <img loading="lazy" src={img2} alt="homeBlog2" className='lg:mt-40' />
+              <img loading="lazy" src={img3} alt="homeBlog3" />
         </div>
           <div>
               <Link

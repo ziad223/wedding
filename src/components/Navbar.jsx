@@ -82,7 +82,7 @@ const Navbar = () => {
 
       {/* الشعار */}
       <Link to='/' className="flex items-center gap-5">
-        <img src={logo} className="w-[80px] lg:w-[120px] lg:h-[100.24px]" alt="logo" />
+        <img loading="lazy" src={logo} className="w-[80px] lg:w-[120px] lg:h-[100.24px]" alt="logo" />
       </Link>
 
       {isMenuOpen && (

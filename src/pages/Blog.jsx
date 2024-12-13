@@ -15,7 +15,7 @@ const Blog = () => {
       </p>
       <hr className='#dedede my-16' />
        <div>
-        <img src={blog1} alt="blog1" />
+        <img loading="lazy" src={blog1} alt="blog1" />
         <div className='lg:px-32 mt-10'>
           <h2 className='lg:text-2xl font-bold text-xl'>اختيارات مستدامة ليومك المميز</h2>
           <p className='my-5 text-lg'>
@@ -52,7 +52,7 @@ const Blog = () => {
 الحفاظ على فستان الزفاف يبدأ بالعناية الجيدة قبل وبعد الحفل. اكتشفي أفضل الطرق لتنظيفه، تخزينه، والعناية بالتفاصيل الدقيقة لتحافظي عليه كأنه جديد، وتضمني أنه يبقى جزءًا من إرثك الشخصي.
  
           </p>
-          <img src={blog2} alt="blog2" className='mt-14' />
+          <img loading="lazy" src={blog2} alt="blog2" className='mt-14' />
           <div className="mt-10">
             <h2 className='lg:text-2xl font-bold text-xl'> استكشفي سحر فساتين الأفراح في موقعنا</h2>
             <p className='my-5 text-lg'>

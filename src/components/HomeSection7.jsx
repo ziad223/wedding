@@ -14,43 +14,53 @@ const HomeSection7 = () => {
           نحن نقدم مجموعة متميزة من الخدمات لتلبية كافة احتياجات العروس <span className='lg:block'>وجعل يوم زفافها استثنائيًا</span>
         </p>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5  lg:gap-0 justify-center items-center mt-20 -z-20">
-        <div className='lg:w-1/3 w-full transform transition-all duration-300 hover:scale-105 '>
-          <img src={img1} alt="service1" className='' />
+
+      {/* الخدمات */}
+      <div className="flex flex-col lg:flex-row  justify-center items-center mt-20 -z-20">
+        {/* الخدمة الأولى */}
+        <div className='w-full lg:w-1/3 transform transition-all duration-300 hover:scale-105'>
+          <img loading="lazy" src={img1} alt="service1" className='w-full h-auto' />
         </div>
-        <div className='flex flex-col border gap-3 text-center lg:w-1/3 w-full transform transition-all duration-300 hover:scale-105 '>
+
+        {/* الخدمة الثانية */}
+        <div className='flex flex-col border gap-3 text-center w-full lg:w-1/3 transform transition-all duration-300 hover:scale-105'>
           <div className='p-3'>
-            <h2 className='lg:text-2xl'>تصميم فساتين حسب الطلب</h2>
-            <p className='mt-4 lg:w-[70%] w-[90%] mx-auto '>
+            <h2 className='lg:text-2xl text-xl'>تصميم فساتين حسب الطلب</h2>
+            <p className='mt-4 lg:w-[70%] w-[90%] mx-auto'>
               نمنحك فرصة الحصول على فستان زفاف فريد ومخصص يعكس شخصيتك ورؤيتك الخاصة، لتتألقي في يومك المميز
             </p>
           </div>
-          <img src={img2} alt="service2" />
+          <img loading="lazy" src={img2} alt="service2" className='w-full h-auto' />
         </div>
-        <div className='lg:w-1/3 w-full transform transition-all duration-300 hover:scale-105 '>
-          <img src={img3} alt="service3" />
+
+        {/* الخدمة الثالثة */}
+        <div className='w-full lg:w-1/3 transform transition-all duration-300 hover:scale-105'>
+          <img loading="lazy" src={img3} alt="service3" className='w-full h-auto' />
           <div className='text-center p-4 shadow-lg bg-white'>
-            <h2 className='lg:text-2xl '> تعديلات الفساتين </h2>
-            <p className='mt-4 lg:w-[70%] w-[90%] mx-auto '>
+            <h2 className='lg:text-2xl text-xl'>تعديلات الفساتين</h2>
+            <p className='mt-4 lg:w-[70%] w-[90%] mx-auto'>
               نمنحك فرصة الحصول على فستان زفاف فريد ومخصص يعكس شخصيتك ورؤيتك الخاصة، لتتألقي في يومك المميز
             </p>
           </div>
         </div>
       </div>
+
+      {/* الطبقة الخلفية */}
       <div className='absolute hidden lg:block -z-20 lg:bottom-[-300px] lg:left-0'>
-        <img src={layer} alt="layer" className='lg:w-[931.51px] lg:h-[656.38px]' />
+        <img loading="lazy" src={layer} alt="layer" className='lg:w-[931.51px] lg:h-[656.38px]' />
       </div>
+
+      {/* زر اقرأ المزيد */}
       <div>
         <Link
           to="/contact"
-          className="bg-[#907457] lg:w-[242px] w-max p-3 lg:p-0 lg:h-[60px] mx-auto mt-10 text-xl text-white rounded-lg hover:bg-[#7c6246] transition-all duration-300 flex justify-center items-center"
+          className="bg-[#907457] w-full lg:w-[242px] p-3 lg:p-0 lg:h-[60px] mx-auto mt-10 text-xl text-white rounded-lg hover:bg-[#7c6246] transition-all duration-300 flex justify-center items-center"
         >
           أقرئي المزيد
         </Link>
       </div>
-
     </div>
   );
-}
+};
 
 export default HomeSection7;

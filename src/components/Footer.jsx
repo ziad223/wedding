@@ -11,7 +11,7 @@ const Footer = () => {
 
                 {/* القسم الأول */}
                 <div className="w-full lg:w-auto text-center lg:text-right flex flex-col gap-4">
-                    <img src={logo} alt="Footer Logo" className='lg:w-[120px] w-[80px] mx-auto ' />
+                    <img  loading="lazy" src={logo} alt="Footer Logo" className=' w-[120px] mx-auto ' />
                     <p className="text-lg lg:text-[18px] font-normal lg:w-[379px] lg:h-[140px] mb-8">
                         موقع "Bahaa Eldin" هو وجهتك المثالية لفساتين الأفراح، حيث نقدم مجموعة رائعة من الفساتين بأعلى معايير الجودة والأناقة. نساعدك في العثور على الفستان المثالي الذي يعكس أسلوبك في يومك الكبير. انضمي إلينا واستمتعي بتجربة تسوق مميزة!
                     </p>

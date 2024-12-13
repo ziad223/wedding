@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <div>
       <div>
-        <img src={serviceHero} alt="service-hero" className='lg:h-[827px]' />
+        <img loading="lazy" src={serviceHero} alt="service-hero" className='lg:h-[827px]' />
       </div> 
     
       <div className="text-center bg-white p-5 lg:p-10 my-10">

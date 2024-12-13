@@ -28,7 +28,7 @@ const About = () => {
   return (
     <div className=''>
          <div className=''>
-        <img src={aboutHero} className='lg:w-[1440px] h-[120vh] object-cover lg:h-[902px]' alt="about-hero" />
+        <img loading="lazy" src={aboutHero} className='lg:w-[1440px] h-[120vh] object-cover lg:h-[902px]' alt="about-hero" />
          </div>
       <div className='text-center bg-white p-5 lg:my-10 lg:p-10'>
         <h2 className='text-[#907457] lg:w-[894px] mx-auto lg:h-[64px] font-bold text-lg lg:text-[48px]'>رحلة الإبداع في تصميم فساتين الزفاف</h2>
