@@ -70,14 +70,13 @@ const Footer = () => {
                 className="text-center text-[10px] font-sans"
                 style={{ fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif' }}
             >
-                Developed by{' '}
                 <Link
                     to="https://highleveltecknology.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 underline"
+                    className="text-gray-400 text-[16px] font-bold flex items-center justify-center gap-1 mt-3 "
                 >
-                    High Level Technology
+                    High Level Technology <span className='text-lg mt-0.5'>©</span>
                 </Link>
             </h2>
         </footer>
