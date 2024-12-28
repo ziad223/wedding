@@ -76,7 +76,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="text-gray-400 text-[16px] font-bold flex items-center justify-center gap-1 mt-3 "
                 >
-                    High Level Technology <span className='text-lg mt-0.5'>©</span>
+                    High Level Technology  <span className='text-lg mt-0.5'>©</span>
                 </Link>
             </h2>
         </footer>
